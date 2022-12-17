@@ -329,7 +329,66 @@ Services
 Featured Tours
 ===============
 */
-
+.tour-card {
+  background: var(--clr-grey-10);
+  margin-bottom: 2rem;
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+}
+.tour-card:hover {
+  box-shadow: var(--dark-shadow);
+  transform: scale(1.02);
+}
+.tour-image-container {
+  position: relative;
+}
+.tour-image {
+  height: 15rem;
+  object-fit: cover;
+}
+.tour-date {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin-bottom: 0;
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-1);
+  padding: 0.25rem 0.5rem;
+  text-transform: capitalize;
+}
+.tour-info {
+  padding: 1.25rem 1.5rem;
+}
+.tour-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.tour-footer p {
+  color: var(--clr-primary-5);
+  margin-bottom: 0;
+  text-transform: capitalize;
+  line-height: 0;
+}
+.tour-btn {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .featured-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .tour-card {
+    flex: 0 0 calc(50% - 2rem);
+  }
+}
+@media screen and (min-width: 1170px) {
+  .tour-card {
+    flex: 0 0 calc(33.333% - 2rem);
+  }
+}
 /*
 =============== 
 Contact
@@ -346,4 +405,4 @@ Gallery
 =============== 
 Footer
 ===============
-*/
+*/ ;

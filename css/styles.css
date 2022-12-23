@@ -69,15 +69,10 @@ ul {
 a {
   text-decoration: none;
 }
-img {
+img:not(.nav-logo) {
   width: 100%;
   display: block;
 }
-/* img:not(.nav-logo) {
-  width: 100%;
-  display: block;
-} */
-
 h1,
 h2,
 h3,
@@ -174,6 +169,55 @@ p {
 Navbar
 ===============
 */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: var(--clr-white);
+  box-shadow: var(--dark-shadow);
+  z-index: 1;
+}
+.nav-center {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+.nav-toggle {
+  background: transparent;
+  border: transparent;
+  font-size: 1.5rem;
+  color: var(--clr-primary-5);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-toggle:hover {
+  transform: scale(1.2);
+}
+.nav-link {
+  padding: 1rem 2rem;
+  display: block;
+  font-size: 1rem;
+  color: var(--clr-grey-1);
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  transition: var(--transition);
+  cursor: pointer;
+}
+.nav-link:hover {
+  background: var(--clr-primary-8);
+  color: var(--clr-primary-1);
+  padding-left: 2.25rem;
+}
+.nav-icons {
+  display: none;
+}
 /*
 =============== 
 Hero

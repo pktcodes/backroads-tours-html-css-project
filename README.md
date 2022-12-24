@@ -10,7 +10,7 @@
  - **About** will have an image and some information about the company along with **`Read More`**.
  - **Services** has articles with some information that tells about the benefits provided by the company for the tour.
  - **Featured** has been implemented in cards that show some of the featured tours along with an **`All Tours`**.
- - **Contact** will have some info about the latest updates and a signup *form* to fill in the email along with **`Submit Here`**.
+ - **Contact** will have some info about the latest updates and a signup *form* to fill in the email along with **`Submit`**.
  - **Gallery** showcases the images of the tourist places along with a *Search* icon on the hover of each image.
  - **Footer** has links to navigate across the sections of the page, icons of social media operated by the company, and copyright information. 
 - **Responsive design** has been implemented across all the sections of the page using *CSS Flexbox* with columns layout.
